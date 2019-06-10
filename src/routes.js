@@ -10,7 +10,7 @@ const authMiddleware = require("./App/middlewares/auth");
 routes.post("/users", UserController.store);
 routes.post("/session", SessionController.store);
 
-routes.get("/test", authMiddleware, (req, res) => res.json({ ok: true }));
+routes.get("/test", (req, res) => res.json({ ok: true }));
 
 //rotas autenticadas
 routes.use(authMiddleware);
