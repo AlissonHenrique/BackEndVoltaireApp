@@ -1,4 +1,4 @@
 module.exports = {
-  secret: "gonode",
+  secret: process.env.APP_SECRET,
   ttl: 86400
 };

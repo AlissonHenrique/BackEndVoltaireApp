@@ -1,3 +1,3 @@
 module.exports = {
-  url: "mongodb://localhost:27017/gonode"
+  url: process.env.BD_URL
 };
