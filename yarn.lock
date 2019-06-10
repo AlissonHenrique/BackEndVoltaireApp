@@ -2338,6 +2338,11 @@ xdg-basedir@^3.0.0:
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-3.0.0.tgz#496b2cc109eca8dbacfe2dc72b603c17c5870ad4"
   integrity sha1-SWsswQnsqNus/i3HK2A8F8WHCtQ=
 
+y@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/y/-/y-0.3.2.tgz#bd08711d26b034d026a30599a9919a63fe43c3fa"
+  integrity sha1-vQhxHSawNNAmowWZqZGaY/5Dw/o=
+
 yallist@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
