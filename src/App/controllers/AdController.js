@@ -26,13 +26,13 @@ class AdController {
   async store(req, res) {
     const ad = await Ad.create({ ...req.body, user_id: req.userId });
 
-    const { content } = req.body;
+    const { content, email } = req.body;
     //const sendAd = await Ad.findById(ad).populate("user_id");
 
     await Mail.sendMail({
-      from: '"Alisson" <alisson@fce.edu.br>',
-      to: "comercial.pos@fce.edu.br",
-      subject: "teste",
+      from: "Voltaite Ed <enviaremail@fce.edu.br>",
+      to: email,
+      subject: "Inscrição de curso Voltaire Educacional",
       template: "send",
       context: { ad }
     });

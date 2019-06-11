@@ -1,4 +1,4 @@
 module.exports = {
-  secret: process.env.APP_SECRET,
+  secret: process.env.BD_URL,
   ttl: 86400
 };
